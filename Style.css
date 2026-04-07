@@ -5,6 +5,7 @@
 }
 
 
+
 body{
     background-image:url(imagem01.jpg) ;
     background-size: cover;
@@ -21,6 +22,7 @@ body{
     width: 450px;
     padding: 35px;
     border-radius: 25px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.7 ); /*cor*/
 }
 
 .texto{
@@ -31,6 +33,8 @@ body{
     background-color:#548a64a1;
     color:rgb(245, 234, 234);
     padding:15px;
+   
+   
 }
 
 .traducao{
@@ -48,6 +52,9 @@ body{
     font-size: 19px;
     margin-bottom: 15px;
     border-radius: 15px;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
 
 .caixa-interna{
@@ -60,9 +67,9 @@ body{
 .idioma{
     width: 100%;
     border: none;
-    padding: 20x;
-    background-color: #ADD8E6a1; 
-    color:red;
+    padding: 12px;
+    background-color: #548a64a1; 
+    color:rgb(0, 0, 0);
     border-radius: 20px;
     outline:none;
     cursor: pointer;
@@ -71,13 +78,17 @@ body{
 
 button{
     border: none;
-    padding: 10px;
-    border-radius: 50%;
+    padding: 6px;
     background-color:#3CB371a1 ;
-    cursor: pointer;
-    color: burlywood;
+    color:rgb(255, 255, 255);
+    border-radius: 20px;
 }
 
-button:hover{
-    opacity: 0.09;
+button:hover{ /*cor*/
+    opacity: 0.9;
+}
+
+.idioma.option{
+    background-color: antiquewhite;
+    color:beige;
 }
